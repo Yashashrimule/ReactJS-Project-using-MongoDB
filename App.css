@@ -1,0 +1,165 @@
+.header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url('https://www.shutterstock.com/image-vector/black-blue-glossy-metal-shapes-260nw-1912805740.jpg');
+  color: white;
+  padding: 0px 8%;
+}
+.header .btn button{
+  margin-right: 10px;
+  padding: 8px 15px;
+  background: whitesmoke;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all ease 0.3s;
+  font-weight: 700;
+  color: #2e94b9;
+  gap: 20px;   
+   
+
+}
+.header button:active{
+  background: black;
+  color: white;
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 450px;
+  border: none;
+  border-radius: 4px;
+  z-index: 10;
+  background: url('https://img.freepik.com/free-vector/abstract-paper-style-background_23-2150744372.jpg');
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+}
+.box .title{
+  width: 100%;
+  height: 50px;
+  background: url('https://www.shutterstock.com/image-vector/black-blue-glossy-metal-shapes-260nw-1912805740.jpg');
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 4px solid #2e94b9;
+}
+.box .title label{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+.box form{
+  width: 100%;
+  padding: 10px 25px;
+}
+.box form .input-field{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.box form .input-field label{
+  font-weight: 599;
+  color: white;
+}
+.box form .input-field label span{
+  color: red;
+  margin-left: 4px;
+}
+.box form .input-field input,
+.box form .input-field select{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+  border-radius: 3px;
+}
+.box form input[type='submit']{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #2e94b9;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+  border: 2px solid #2e94b9;
+
+}
+.box form input[type='submit']:hover{
+  background: linear-gradient(180deg,#2e94b9,black);
+  color: white;
+}
+table{
+  width: 80%;
+  margin: 20px auto;
+  border-bottom: 2px solid #2e94b9;
+  border-collapse: collapse;
+  border-radius: 4px;
+  z-index: 0;
+}
+table thead{
+  width: 100%;
+  background: url('https://www.shutterstock.com/image-vector/black-blue-glossy-metal-shapes-260nw-1912805740.jpg');
+  color: white;
+}
+table thead th{
+  padding: 8px;
+  font-weight: 600;
+}
+table tbody{
+  width: 100%;
+}
+table tbody tr{
+  border-bottom: 2px solid #2e94b9;
+}
+table tbody tr:nth-child(even){
+  background: #bae6f6;
+}
+
+table tbody tr td{
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+
+table tbody tr .actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+table tbody tr .actions button{
+  width: 35px;
+  height: 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8) ;
+}
+table tbody tr .actions button:nth-child(1){
+  background:#225466;
+}
+table tbody tr .actions button:nth-child(2){
+  background: black;
+  
+}
